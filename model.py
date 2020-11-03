@@ -183,4 +183,4 @@ with torch.no_grad():
 # CONVERTION
 
 net_trt = t2t(net, [input])
-torch.save(net_trt.state_dict(), 'monai-net3D-trt.pt')
+torch.save(net_trt.state_dict(), 'net3D-trt.pt')
